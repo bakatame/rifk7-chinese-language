@@ -1,6 +1,6 @@
 # rifk7-chinese-language
 
-** rifk7中文汉化存储仓库 **
+**rifk7中文汉化存储仓库**
 
 > [!WARNING]
 > W.I.P. 目前翻译未完成
