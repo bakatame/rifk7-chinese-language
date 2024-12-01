@@ -1,0 +1,5458 @@
+[
+    {
+        "- name": "menu_item_searcher_filter",
+        "-- flex_name": "",
+        "--- type": 5,
+        "---- hint_text": "搜索"
+    },
+    {
+        "- name": "menu_item_searcher_options",
+        "-- flex_name": "控件搜索选项",
+        "--- type": 3,
+        "---- items": "使用灵活名称,不显示前缀"
+    },
+    {
+        "- name": "menu_item_searcher_sections",
+        "-- flex_name": "控件搜索分类",
+        "--- type": 3,
+        "---- items": "菜单,演技,视觉,其他"
+    },
+    {
+        "- name": "menu_item_searcher_types",
+        "-- flex_name": "控件搜索类型",
+        "--- type": 3,
+        "---- items": "复选框,滑块,组合,多选,颜色选择器,文本输入,按键绑定,按钮,文本"
+    },
+    {
+        "- name": "menu_config_tab_cheat_button",
+        "-- flex_name": "作弊",
+        "--- type": 7,
+        "---- value": "[\"确定加载?\",\"加载成功!\"]"
+    },
+    {
+        "- name": "menu_config_tab_menu_button",
+        "-- flex_name": "菜单",
+        "--- type": 7,
+        "---- value": "[\"确定加载?\",\"加载成功!\"]"
+    },
+    {
+        "- name": "menu_config_tab_language_button",
+        "-- flex_name": "语言",
+        "--- type": 7,
+        "---- value": "[\"确定加载?\",\"加载成功!\"]"
+    },
+    {
+        "- name": "menu_config_tab_description_button",
+        "-- flex_name": "介绍",
+        "--- type": 7,
+        "---- value": "[\"确定加载?\",\"加载成功!\"]"
+    },
+    {
+        "- name": "menu_config_filter",
+        "-- flex_name": "",
+        "--- type": 5,
+        "---- hint_text": "搜索"
+    },
+    {
+        "- name": "menu_config_load_button",
+        "-- flex_name": "加载",
+        "--- type": 7,
+        "---- value": "[\"确定加载?\",\"加载成功!\"]"
+    },
+    {
+        "- name": "menu_config_save_button",
+        "-- flex_name": "保存",
+        "--- type": 7,
+        "---- value": "[\"确定保存?\",\"保存成功!\"]"
+    },
+    {
+        "- name": "menu_config_delete_button",
+        "-- flex_name": "删除",
+        "--- type": 7,
+        "---- value": "[\"确定删除?\",\"删除成功!\"]"
+    },
+    {
+        "- name": "menu_config_yes_button",
+        "-- flex_name": "确定",
+        "--- type": 7,
+        "---- value": "[\"确定?\",\"确定!\"]"
+    },
+    {
+        "- name": "menu_config_cancel_button",
+        "-- flex_name": "取消",
+        "--- type": 7,
+        "---- value": "[\"取消?\",\"取消!\"]"
+    },
+    {
+        "- name": "menu_config_save_as_new_button",
+        "-- flex_name": "保存为新的参数",
+        "--- type": 7,
+        "---- value": "[\"确定保存?\",\"保存成功!\"]"
+    },
+    {
+        "- name": "menu_config_encrypt_button",
+        "-- flex_name": "加密",
+        "--- type": 7,
+        "---- value": "[\"确定加密?\",\"加密成功!\"]"
+    },
+    {
+        "- name": "menu_config_open_folder_button",
+        "-- flex_name": "打开文件夹",
+        "--- type": 7,
+        "---- value": "[\"Open?\",\"Open!\"]"
+    },
+    {
+        "- name": "menu_config_text_input",
+        "-- flex_name": "",
+        "--- type": 5,
+        "---- hint_text": "新参数的名称"
+    },
+    {
+        "- name": "menu_colorpicker_set",
+        "-- flex_name": "应用",
+        "--- type": 7,
+        "---- value": "[\"Set?\",\"Set!\"]"
+    },
+    {
+        "- name": "menu_colorpicker_copy",
+        "-- flex_name": "复制",
+        "--- type": 7,
+        "---- value": "[\"Copy?\",\"Copy!\"]"
+    },
+    {
+        "- name": "menu_options",
+        "-- flex_name": "菜单控件",
+        "--- type": 3,
+        "---- items": "Old ColorPickers,Disable Slider Animations,OneTime Slider Animations,Disable Box Animations,Disable ColorPicker Animations,Matrix背景 ( FPS ),Dynamic Button Text,Auto Save Cheat Config,Auto Save Menu Config,Auto Save Skins Config"
+    },
+    {
+        "- name": "menu_key",
+        "-- flex_name": "菜单按键",
+        "--- type": 6
+    },
+    {
+        "- name": "menu_specify_items",
+        "-- flex_name": "指定控件",
+        "--- type": 3,
+        "---- items": "复选框,滑块,组合,多选,颜色选择器,文本输入,按键绑定,按钮,文本"
+    },
+    {
+        "- name": "menu_specify_sections",
+        "-- flex_name": "指定分类",
+        "--- type": 3,
+        "---- items": "菜单,演技,视觉,其他"
+    },
+    {
+        "- name": "menu_social_hub_chat",
+        "-- flex_name": "",
+        "--- type": 5,
+        "---- hint_text": "跟其他人唠嗑"
+    },
+    {
+        "- name": "menu_menu_fade_in_time",
+        "-- flex_name": "菜单淡入时间",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_menu_fade_out_time",
+        "-- flex_name": "菜单淡出时间",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_menu_dragging_smoothness",
+        "-- flex_name": "菜单拖动平滑度",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_child_fade_in_time",
+        "-- flex_name": "子项目淡入时间",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_child_fade_out_time",
+        "-- flex_name": "子项目淡出时间",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_enable_matrix",
+        "-- flex_name": "启用矩阵",
+        "--- type": 0
+    },
+    {
+        "- name": "menu_matrix_update_time",
+        "-- flex_name": "矩阵更新时间",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_slider_smoothness",
+        "-- flex_name": "滑块平滑度",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_combo_fade_in_time",
+        "-- flex_name": "组合淡入时间",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_combo_fade_out_time",
+        "-- flex_name": "组合淡出时间",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_particles_amount",
+        "-- flex_name": "粒子数量",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "menu_particles_size",
+        "-- flex_name": "粒子尺寸",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_particles_lifetime",
+        "-- flex_name": "粒子存活时间",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_particles_random_velocity",
+        "-- flex_name": "粒子随机速度",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_particles_velocity_multiplicator",
+        "-- flex_name": "粒子速度倍增器",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_rps_decision_reveal",
+        "-- flex_name": "猜拳决定揭示",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_rps_enemy_decision_reveal",
+        "-- flex_name": "猜拳敌人决定揭示",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_rps_history_fade_in",
+        "-- flex_name": "猜拳历史淡出",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_rps_history_move",
+        "-- flex_name": "猜拳历史移动",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_rps_history_min_move_delta",
+        "-- flex_name": "猜拳历史最小移动增量",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "menu_enable_watermark",
+        "-- flex_name": "启用水印",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_use_shared_tab_0",
+        "-- flex_name": "使用全局武器参数",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_use_shared_tab_1",
+        "-- flex_name": "使用全局武器参数",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_use_shared_tab_2",
+        "-- flex_name": "使用全局武器参数",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_use_shared_tab_3",
+        "-- flex_name": "使用全局武器参数",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_use_shared_tab_4",
+        "-- flex_name": "使用全局武器参数",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_use_shared_tab_5",
+        "-- flex_name": "使用全局武器参数",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_activate_0",
+        "-- flex_name": "激活按键",
+        "--- type": 6
+    },
+    {
+        "- name": "aimbot_aimbot_activate_1",
+        "-- flex_name": "激活按键",
+        "--- type": 6
+    },
+    {
+        "- name": "aimbot_aimbot_activate_2",
+        "-- flex_name": "激活按键",
+        "--- type": 6
+    },
+    {
+        "- name": "aimbot_aimbot_activate_3",
+        "-- flex_name": "激活按键",
+        "--- type": 6
+    },
+    {
+        "- name": "aimbot_aimbot_activate_4",
+        "-- flex_name": "激活按键",
+        "--- type": 6
+    },
+    {
+        "- name": "aimbot_aimbot_activate_5",
+        "-- flex_name": "激活按键",
+        "--- type": 6
+    },
+    {
+        "- name": "aimbot_aimbot_mode_0",
+        "-- flex_name": "自描模式",
+        "--- type": 2,
+        "---- items": "演技,暴力"
+    },
+    {
+        "- name": "aimbot_aimbot_mode_1",
+        "-- flex_name": "自描模式",
+        "--- type": 2,
+        "---- items": "演技,暴力"
+    },
+    {
+        "- name": "aimbot_aimbot_mode_2",
+        "-- flex_name": "自描模式",
+        "--- type": 2,
+        "---- items": "演技,暴力"
+    },
+    {
+        "- name": "aimbot_aimbot_mode_3",
+        "-- flex_name": "自描模式",
+        "--- type": 2,
+        "---- items": "演技,暴力"
+    },
+    {
+        "- name": "aimbot_aimbot_mode_4",
+        "-- flex_name": "自描模式",
+        "--- type": 2,
+        "---- items": "演技,暴力"
+    },
+    {
+        "- name": "aimbot_aimbot_mode_5",
+        "-- flex_name": "自描模式",
+        "--- type": 2,
+        "---- items": "演技,暴力"
+    },
+    {
+        "- name": "aimbot_aimbot_hitboxes_0",
+        "-- flex_name": "自描部位",
+        "--- type": 3,
+        "---- items": "头部,颈部,骨盆,胃部,胸部,下胸部,上胸部,右腿,左腿,右脚,左脚"
+    },
+    {
+        "- name": "aimbot_aimbot_hitboxes_1",
+        "-- flex_name": "自描部位",
+        "--- type": 3,
+        "---- items": "头部,颈部,骨盆,胃部,胸部,下胸部,上胸部,右腿,左腿,右脚,左脚"
+    },
+    {
+        "- name": "aimbot_aimbot_hitboxes_2",
+        "-- flex_name": "自描部位",
+        "--- type": 3,
+        "---- items": "头部,颈部,骨盆,胃部,胸部,下胸部,上胸部,右腿,左腿,右脚,左脚"
+    },
+    {
+        "- name": "aimbot_aimbot_hitboxes_3",
+        "-- flex_name": "自描部位",
+        "--- type": 3,
+        "---- items": "头部,颈部,骨盆,胃部,胸部,下胸部,上胸部,右腿,左腿,右脚,左脚"
+    },
+    {
+        "- name": "aimbot_aimbot_hitboxes_4",
+        "-- flex_name": "自描部位",
+        "--- type": 3,
+        "---- items": "头部,颈部,骨盆,胃部,胸部,下胸部,上胸部,右腿,左腿,右脚,左脚"
+    },
+    {
+        "- name": "aimbot_aimbot_hitboxes_5",
+        "-- flex_name": "自描部位",
+        "--- type": 3,
+        "---- items": "头部,颈部,骨盆,胃部,胸部,下胸部,上胸部,右腿,左腿,右脚,左脚"
+    },
+    {
+        "- name": "aimbot_aimbot_legithitboxes_0",
+        "-- flex_name": "自描部位",
+        "--- type": 3,
+        "---- items": "头部,颈部,骨盆,胃部,胸部,下胸部,上胸部,右腿,左腿,右脚,左脚"
+    },
+    {
+        "- name": "aimbot_aimbot_legithitboxes_1",
+        "-- flex_name": "自描部位",
+        "--- type": 3,
+        "---- items": "头部,颈部,骨盆,胃部,胸部,下胸部,上胸部,右腿,左腿,右脚,左脚"
+    },
+    {
+        "- name": "aimbot_aimbot_legithitboxes_2",
+        "-- flex_name": "自描部位",
+        "--- type": 3,
+        "---- items": "头部,颈部,骨盆,胃部,胸部,下胸部,上胸部,右腿,左腿,右脚,左脚"
+    },
+    {
+        "- name": "aimbot_aimbot_legithitboxes_3",
+        "-- flex_name": "自描部位",
+        "--- type": 3,
+        "---- items": "头部,颈部,骨盆,胃部,胸部,下胸部,上胸部,右腿,左腿,右脚,左脚"
+    },
+    {
+        "- name": "aimbot_aimbot_legithitboxes_4",
+        "-- flex_name": "自描部位",
+        "--- type": 3,
+        "---- items": "头部,颈部,骨盆,胃部,胸部,下胸部,上胸部,右腿,左腿,右脚,左脚"
+    },
+    {
+        "- name": "aimbot_aimbot_legithitboxes_5",
+        "-- flex_name": "自描部位",
+        "--- type": 3,
+        "---- items": "头部,颈部,骨盆,胃部,胸部,下胸部,上胸部,右腿,左腿,右脚,左脚"
+    },
+    {
+        "- name": "aimbot_aimbot_fov_0",
+        "-- flex_name": "FOV(像素)",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_fov_1",
+        "-- flex_name": "FOV(像素)",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_fov_2",
+        "-- flex_name": "FOV(像素)",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_fov_3",
+        "-- flex_name": "FOV(像素)",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_fov_4",
+        "-- flex_name": "FOV(像素)",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_fov_5",
+        "-- flex_name": "FOV(像素)",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_speed_0",
+        "-- flex_name": "速度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_speed_1",
+        "-- flex_name": "速度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_speed_2",
+        "-- flex_name": "速度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_speed_3",
+        "-- flex_name": "速度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_speed_4",
+        "-- flex_name": "速度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_speed_5",
+        "-- flex_name": "速度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_prediction_ticks_0",
+        "-- flex_name": "预测",
+        "--- type": 1,
+        "---- format": "%.f Tick(s)"
+    },
+    {
+        "- name": "aimbot_aimbot_prediction_ticks_1",
+        "-- flex_name": "预测",
+        "--- type": 1,
+        "---- format": "%.f Tick(s)"
+    },
+    {
+        "- name": "aimbot_aimbot_prediction_ticks_2",
+        "-- flex_name": "预测",
+        "--- type": 1,
+        "---- format": "%.f Tick(s)"
+    },
+    {
+        "- name": "aimbot_aimbot_prediction_ticks_3",
+        "-- flex_name": "预测",
+        "--- type": 1,
+        "---- format": "%.f Tick(s)"
+    },
+    {
+        "- name": "aimbot_aimbot_prediction_ticks_4",
+        "-- flex_name": "预测",
+        "--- type": 1,
+        "---- format": "%.f Tick(s)"
+    },
+    {
+        "- name": "aimbot_aimbot_prediction_ticks_5",
+        "-- flex_name": "预测",
+        "--- type": 1,
+        "---- format": "%.f Tick(s)"
+    },
+    {
+        "- name": "aimbot_aimbot_rcs_0",
+        "-- flex_name": "后坐力控制系统",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_rcs_1",
+        "-- flex_name": "后坐力控制系统",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_rcs_2",
+        "-- flex_name": "后坐力控制系统",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_rcs_3",
+        "-- flex_name": "后坐力控制系统",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_rcs_4",
+        "-- flex_name": "后坐力控制系统",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_rcs_5",
+        "-- flex_name": "后坐力控制系统",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_psilent_0",
+        "-- flex_name": "完美静默",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_psilent_1",
+        "-- flex_name": "完美静默",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_psilent_2",
+        "-- flex_name": "完美静默",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_psilent_3",
+        "-- flex_name": "完美静默",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_psilent_4",
+        "-- flex_name": "完美静默",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_psilent_5",
+        "-- flex_name": "完美静默",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autofire_0",
+        "-- flex_name": "自动开火",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autofire_1",
+        "-- flex_name": "自动开火",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autofire_2",
+        "-- flex_name": "自动开火",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autofire_3",
+        "-- flex_name": "自动开火",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autofire_4",
+        "-- flex_name": "自动开火",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autofire_5",
+        "-- flex_name": "自动开火",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_mode_0",
+        "-- flex_name": "Autoaim Crosshair",
+        "--- type": 2,
+        "---- items": "Off,Rectangle,Rectangle Filled,Cross,Rifk"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_mode_1",
+        "-- flex_name": "Autoaim Crosshair",
+        "--- type": 2,
+        "---- items": "Off,Rectangle,Rectangle Filled,Cross,Rifk"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_mode_2",
+        "-- flex_name": "Autoaim Crosshair",
+        "--- type": 2,
+        "---- items": "Off,Rectangle,Rectangle Filled,Cross,Rifk"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_mode_3",
+        "-- flex_name": "Autoaim Crosshair",
+        "--- type": 2,
+        "---- items": "Off,Rectangle,Rectangle Filled,Cross,Rifk"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_mode_4",
+        "-- flex_name": "Autoaim Crosshair",
+        "--- type": 2,
+        "---- items": "Off,Rectangle,Rectangle Filled,Cross,Rifk"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_mode_5",
+        "-- flex_name": "Autoaim Crosshair",
+        "--- type": 2,
+        "---- items": "Off,Rectangle,Rectangle Filled,Cross,Rifk"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_mode_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_mode_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_mode_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_mode_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_mode_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_mode_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_outline_0",
+        "-- flex_name": "Autoaim Crosshair Outline",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_outline_1",
+        "-- flex_name": "Autoaim Crosshair Outline",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_outline_2",
+        "-- flex_name": "Autoaim Crosshair Outline",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_outline_3",
+        "-- flex_name": "Autoaim Crosshair Outline",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_outline_4",
+        "-- flex_name": "Autoaim Crosshair Outline",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_outline_5",
+        "-- flex_name": "Autoaim Crosshair Outline",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_outline_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_outline_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_outline_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_outline_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_outline_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_outline_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_rounding_0",
+        "-- flex_name": "Autoaim Crosshair Rounding",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_rounding_1",
+        "-- flex_name": "Autoaim Crosshair Rounding",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_rounding_2",
+        "-- flex_name": "Autoaim Crosshair Rounding",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_rounding_3",
+        "-- flex_name": "Autoaim Crosshair Rounding",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_rounding_4",
+        "-- flex_name": "Autoaim Crosshair Rounding",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_rounding_5",
+        "-- flex_name": "Autoaim Crosshair Rounding",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_size_0",
+        "-- flex_name": "Autoaim Crosshair Size",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_size_1",
+        "-- flex_name": "Autoaim Crosshair Size",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_size_2",
+        "-- flex_name": "Autoaim Crosshair Size",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_size_3",
+        "-- flex_name": "Autoaim Crosshair Size",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_size_4",
+        "-- flex_name": "Autoaim Crosshair Size",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_autoaim_crosshair_size_5",
+        "-- flex_name": "Autoaim Crosshair Size",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_mode_0",
+        "-- flex_name": "后坐力控制系统准星",
+        "--- type": 2,
+        "---- items": "关闭,矩形,填充矩形,十字架,李福克"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_mode_1",
+        "-- flex_name": "后坐力控制系统准星",
+        "--- type": 2,
+        "---- items": "关闭,矩形,填充矩形,十字架,李福克"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_mode_2",
+        "-- flex_name": "后坐力控制系统准星",
+        "--- type": 2,
+        "---- items": "关闭,矩形,填充矩形,十字架,李福克"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_mode_3",
+        "-- flex_name": "后坐力控制系统准星",
+        "--- type": 2,
+        "---- items": "关闭,矩形,填充矩形,十字架,李福克"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_mode_4",
+        "-- flex_name": "后坐力控制系统准星",
+        "--- type": 2,
+        "---- items": "关闭,矩形,填充矩形,十字架,李福克"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_mode_5",
+        "-- flex_name": "后坐力控制系统准星",
+        "--- type": 2,
+        "---- items": "关闭,矩形,填充矩形,十字架,李福克"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_mode_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_mode_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_mode_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_mode_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_mode_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_mode_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_outline_0",
+        "-- flex_name": "后坐力控制系统准星描边",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_outline_1",
+        "-- flex_name": "后坐力控制系统准星描边",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_outline_2",
+        "-- flex_name": "后坐力控制系统准星描边",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_outline_3",
+        "-- flex_name": "后坐力控制系统准星描边",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_outline_4",
+        "-- flex_name": "后坐力控制系统准星描边",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_outline_5",
+        "-- flex_name": "后坐力控制系统准星描边",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_outline_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_outline_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_outline_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_outline_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_outline_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_outline_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_rounding_0",
+        "-- flex_name": "后坐力控制系统准星圆",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_rounding_1",
+        "-- flex_name": "后坐力控制系统准星圆",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_rounding_2",
+        "-- flex_name": "后坐力控制系统准星圆",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_rounding_3",
+        "-- flex_name": "后坐力控制系统准星圆",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_rounding_4",
+        "-- flex_name": "后坐力控制系统准星圆",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_rounding_5",
+        "-- flex_name": "后坐力控制系统准星圆",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_size_0",
+        "-- flex_name": "后坐力控制系统准星尺寸",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_size_1",
+        "-- flex_name": "后坐力控制系统准星尺寸",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_size_2",
+        "-- flex_name": "后坐力控制系统准星尺寸",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_size_3",
+        "-- flex_name": "后坐力控制系统准星尺寸",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_size_4",
+        "-- flex_name": "后坐力控制系统准星尺寸",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_rcs_crosshair_size_5",
+        "-- flex_name": "后坐力控制系统准星尺寸",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "aimbot_visualize_fov_0",
+        "-- flex_name": "可视化FOV",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_visualize_fov_1",
+        "-- flex_name": "可视化FOV",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_visualize_fov_2",
+        "-- flex_name": "可视化FOV",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_visualize_fov_3",
+        "-- flex_name": "可视化FOV",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_visualize_fov_4",
+        "-- flex_name": "可视化FOV",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_visualize_fov_5",
+        "-- flex_name": "可视化FOV",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_visualize_fov_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_visualize_fov_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_visualize_fov_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_visualize_fov_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_visualize_fov_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_visualize_fov_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "aimbot_aimbot_hitchance_0",
+        "-- flex_name": "命中率",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_hitchance_1",
+        "-- flex_name": "命中率",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_hitchance_2",
+        "-- flex_name": "命中率",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_hitchance_3",
+        "-- flex_name": "命中率",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_hitchance_4",
+        "-- flex_name": "命中率",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_hitchance_5",
+        "-- flex_name": "命中率",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_thirdperson_distance_0",
+        "-- flex_name": "第三人称距离",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_thirdperson_distance_1",
+        "-- flex_name": "第三人称距离",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_thirdperson_distance_2",
+        "-- flex_name": "第三人称距离",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_thirdperson_distance_3",
+        "-- flex_name": "第三人称距离",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_thirdperson_distance_4",
+        "-- flex_name": "第三人称距离",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_thirdperson_distance_5",
+        "-- flex_name": "第三人称距离",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_multipoint_scaling_0",
+        "-- flex_name": "多点边缘",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_multipoint_scaling_1",
+        "-- flex_name": "多点边缘",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_multipoint_scaling_2",
+        "-- flex_name": "多点边缘",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_multipoint_scaling_3",
+        "-- flex_name": "多点边缘",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_multipoint_scaling_4",
+        "-- flex_name": "多点边缘",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_multipoint_scaling_5",
+        "-- flex_name": "多点边缘",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_visible_damage_0",
+        "-- flex_name": "最小可视伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_visible_damage_1",
+        "-- flex_name": "最小可视伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_visible_damage_2",
+        "-- flex_name": "最小可视伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_visible_damage_3",
+        "-- flex_name": "最小可视伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_visible_damage_4",
+        "-- flex_name": "最小可视伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_visible_damage_5",
+        "-- flex_name": "最小可视伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_damage_0",
+        "-- flex_name": "最小穿墙伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_damage_1",
+        "-- flex_name": "最小穿墙伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_damage_2",
+        "-- flex_name": "最小穿墙伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_damage_3",
+        "-- flex_name": "最小穿墙伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_damage_4",
+        "-- flex_name": "最小穿墙伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_damage_5",
+        "-- flex_name": "最小穿墙伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_dmg_override_0",
+        "-- flex_name": "伤害覆盖按键",
+        "--- type": 6
+    },
+    {
+        "- name": "aimbot_aimbot_dmg_override_1",
+        "-- flex_name": "伤害覆盖按键",
+        "--- type": 6
+    },
+    {
+        "- name": "aimbot_aimbot_dmg_override_2",
+        "-- flex_name": "伤害覆盖按键",
+        "--- type": 6
+    },
+    {
+        "- name": "aimbot_aimbot_dmg_override_3",
+        "-- flex_name": "伤害覆盖按键",
+        "--- type": 6
+    },
+    {
+        "- name": "aimbot_aimbot_dmg_override_4",
+        "-- flex_name": "伤害覆盖按键",
+        "--- type": 6
+    },
+    {
+        "- name": "aimbot_aimbot_dmg_override_5",
+        "-- flex_name": "伤害覆盖按键",
+        "--- type": 6
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_override_damage_0",
+        "-- flex_name": "覆盖最小伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_override_damage_1",
+        "-- flex_name": "覆盖最小伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_override_damage_2",
+        "-- flex_name": "覆盖最小伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_override_damage_3",
+        "-- flex_name": "覆盖最小伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_override_damage_4",
+        "-- flex_name": "覆盖最小伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_override_damage_5",
+        "-- flex_name": "覆盖最小伤害",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_antiaim_0",
+        "-- flex_name": "反自描 (只允许使用在社区服务器)",
+        "--- type": 2,
+        "---- items": "关闭,背身,根据目标位置背身,智能目标位置背身,自动藏头"
+    },
+    {
+        "- name": "aimbot_aimbot_antiaim_1",
+        "-- flex_name": "反自描 (只允许使用在社区服务器)",
+        "--- type": 2,
+        "---- items": "关闭,背身,根据目标位置背身,智能目标位置背身,自动藏头"
+    },
+    {
+        "- name": "aimbot_aimbot_antiaim_2",
+        "-- flex_name": "反自描 (只允许使用在社区服务器)",
+        "--- type": 2,
+        "---- items": "关闭,背身,根据目标位置背身,智能目标位置背身,自动藏头"
+    },
+    {
+        "- name": "aimbot_aimbot_antiaim_3",
+        "-- flex_name": "反自描 (只允许使用在社区服务器)",
+        "--- type": 2,
+        "---- items": "关闭,背身,根据目标位置背身,智能目标位置背身,自动藏头"
+    },
+    {
+        "- name": "aimbot_aimbot_antiaim_4",
+        "-- flex_name": "反自描 (只允许使用在社区服务器)",
+        "--- type": 2,
+        "---- items": "关闭,背身,根据目标位置背身,智能目标位置背身,自动藏头"
+    },
+    {
+        "- name": "aimbot_aimbot_antiaim_5",
+        "-- flex_name": "反自描 (只允许使用在社区服务器)",
+        "--- type": 2,
+        "---- items": "关闭,背身,根据目标位置背身,Clever At Target,自动藏头"
+    },
+    {
+        "- name": "aimbot_aimbot_antiaim_jitter_amount_0",
+        "-- flex_name": "真身抖动",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_antiaim_jitter_amount_1",
+        "-- flex_name": "真身抖动",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_antiaim_jitter_amount_2",
+        "-- flex_name": "真身抖动",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_antiaim_jitter_amount_3",
+        "-- flex_name": "真身抖动",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_antiaim_jitter_amount_4",
+        "-- flex_name": "真身抖动",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_antiaim_jitter_amount_5",
+        "-- flex_name": "真身抖动",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_0",
+        "-- flex_name": "自动穿墙",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_1",
+        "-- flex_name": "自动穿墙",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_2",
+        "-- flex_name": "自动穿墙",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_3",
+        "-- flex_name": "自动穿墙",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_4",
+        "-- flex_name": "自动穿墙",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autowall_5",
+        "-- flex_name": "自动穿墙",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_legitautowall_0",
+        "-- flex_name": "自动穿墙",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_legitautowall_1",
+        "-- flex_name": "自动穿墙",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_legitautowall_2",
+        "-- flex_name": "自动穿墙",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_legitautowall_3",
+        "-- flex_name": "自动穿墙",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_legitautowall_4",
+        "-- flex_name": "自动穿墙",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_legitautowall_5",
+        "-- flex_name": "自动穿墙",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autoduck_0",
+        "-- flex_name": "自动蹲",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autoduck_1",
+        "-- flex_name": "自动蹲",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autoduck_2",
+        "-- flex_name": "自动蹲",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autoduck_3",
+        "-- flex_name": "自动蹲",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autoduck_4",
+        "-- flex_name": "自动蹲",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_autoduck_5",
+        "-- flex_name": "自动蹲",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_nospread_0",
+        "-- flex_name": "无扩散",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_nospread_1",
+        "-- flex_name": "无扩散",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_nospread_2",
+        "-- flex_name": "无扩散",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_nospread_3",
+        "-- flex_name": "无扩散",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_nospread_4",
+        "-- flex_name": "无扩散",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_nospread_5",
+        "-- flex_name": "无扩散",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_impacts_0",
+        "-- flex_name": "Debug Impacts",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_impacts_1",
+        "-- flex_name": "Debug Impacts",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_impacts_2",
+        "-- flex_name": "Debug Impacts",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_impacts_3",
+        "-- flex_name": "Debug Impacts",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_impacts_4",
+        "-- flex_name": "Debug Impacts",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_impacts_5",
+        "-- flex_name": "Debug Impacts",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_debug_multipoints_0",
+        "-- flex_name": "Debug Multipoints",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_debug_multipoints_1",
+        "-- flex_name": "Debug Multipoints",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_debug_multipoints_2",
+        "-- flex_name": "Debug Multipoints",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_debug_multipoints_3",
+        "-- flex_name": "Debug Multipoints",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_debug_multipoints_4",
+        "-- flex_name": "Debug Multipoints",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_debug_multipoints_5",
+        "-- flex_name": "Debug Multipoints",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_backtrack_skeleton_0",
+        "-- flex_name": "Backtrack Skeleton",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_backtrack_skeleton_1",
+        "-- flex_name": "Backtrack Skeleton",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_backtrack_skeleton_2",
+        "-- flex_name": "Backtrack Skeleton",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_backtrack_skeleton_3",
+        "-- flex_name": "Backtrack Skeleton",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_backtrack_skeleton_4",
+        "-- flex_name": "Backtrack Skeleton",
+        "--- type": 0
+    },
+    {
+        "- name": "aimbot_aimbot_backtrack_skeleton_5",
+        "-- flex_name": "Backtrack Skeleton",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_override_with_team_color_0",
+        "-- flex_name": "[队友]使用团队颜色覆盖",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_override_with_team_color_1",
+        "-- flex_name": "[敌人]使用团队颜色覆盖",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_override_with_team_color_2",
+        "-- flex_name": "Override With Team Color",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_blue_team_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_blue_team_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_blue_team_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_green_team_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_green_team_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_green_team_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_yellow_team_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_yellow_team_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_yellow_team_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_orange_team_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_orange_team_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_orange_team_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_purple_team_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_purple_team_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_purple_team_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_purple_team_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_purple_team_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_purple_team_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_purple_team_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_name_esp_0",
+        "-- flex_name": "名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_name_esp_1",
+        "-- flex_name": "名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_name_esp_2",
+        "-- flex_name": "名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_name_esp_3",
+        "-- flex_name": "名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_name_esp_4",
+        "-- flex_name": "名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_name_esp_5",
+        "-- flex_name": "名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_name_esp_6",
+        "-- flex_name": "名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_name_esp_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_name_esp_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_name_esp_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_name_esp_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_name_esp_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_name_esp_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_name_esp_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_last_place_esp_0",
+        "-- flex_name": "最后位置ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_last_place_esp_1",
+        "-- flex_name": "最后位置ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_last_place_esp_2",
+        "-- flex_name": "最后位置ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_last_place_esp_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_last_place_esp_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_last_place_esp_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_last_place_esp_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_last_place_esp_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_last_place_esp_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_last_place_esp_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_esp_0",
+        "-- flex_name": "方框ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_esp_1",
+        "-- flex_name": "方框ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_esp_2",
+        "-- flex_name": "方框ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_esp_3",
+        "-- flex_name": "方框ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_esp_4",
+        "-- flex_name": "方框ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_esp_5",
+        "-- flex_name": "方框ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_esp_6",
+        "-- flex_name": "方框ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_esp_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_esp_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_esp_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_esp_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_esp_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_esp_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_esp_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_cornered_boxes_0",
+        "-- flex_name": "边角方框",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_cornered_boxes_1",
+        "-- flex_name": "边角方框",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_cornered_boxes_2",
+        "-- flex_name": "边角方框",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_cornered_boxes_3",
+        "-- flex_name": "边角方框",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_cornered_boxes_4",
+        "-- flex_name": "边角方框",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_cornered_boxes_5",
+        "-- flex_name": "边角方框",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_cornered_boxes_6",
+        "-- flex_name": "边角方框",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_rounding_0",
+        "-- flex_name": "方框圆角",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_box_rounding_1",
+        "-- flex_name": "方框圆角",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_box_rounding_2",
+        "-- flex_name": "方框圆角",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_box_rounding_3",
+        "-- flex_name": "方框圆角",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_box_rounding_4",
+        "-- flex_name": "方框圆角",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_box_rounding_5",
+        "-- flex_name": "方框圆角",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_box_rounding_6",
+        "-- flex_name": "方框圆角",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_box_outer_shadow_0",
+        "-- flex_name": "方框外阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_outer_shadow_1",
+        "-- flex_name": "方框外阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_outer_shadow_2",
+        "-- flex_name": "方框外阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_outer_shadow_3",
+        "-- flex_name": "方框外阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_outer_shadow_4",
+        "-- flex_name": "方框外阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_outer_shadow_5",
+        "-- flex_name": "方框外阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_outer_shadow_6",
+        "-- flex_name": "方框外阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_outer_shadow_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_outer_shadow_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_outer_shadow_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_outer_shadow_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_outer_shadow_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_outer_shadow_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_outer_shadow_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_inner_shadow_0",
+        "-- flex_name": "方框内阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_inner_shadow_1",
+        "-- flex_name": "方框内阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_inner_shadow_2",
+        "-- flex_name": "方框内阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_inner_shadow_3",
+        "-- flex_name": "方框内阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_inner_shadow_4",
+        "-- flex_name": "方框内阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_inner_shadow_5",
+        "-- flex_name": "方框内阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_inner_shadow_6",
+        "-- flex_name": "方框内阴影",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_inner_shadow_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_inner_shadow_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_inner_shadow_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_inner_shadow_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_inner_shadow_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_inner_shadow_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_inner_shadow_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_filled_0",
+        "-- flex_name": "背景填充",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_filled_1",
+        "-- flex_name": "背景填充",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_filled_2",
+        "-- flex_name": "背景填充",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_filled_3",
+        "-- flex_name": "背景填充",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_filled_4",
+        "-- flex_name": "背景填充",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_filled_5",
+        "-- flex_name": "背景填充",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_filled_6",
+        "-- flex_name": "背景填充",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_box_filled_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_filled_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_filled_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_filled_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_filled_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_filled_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_filled_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_box_corners_0",
+        "-- flex_name": "方框圆角位置",
+        "--- type": 3,
+        "---- items": "左上角,右上角,左下角,右下角"
+    },
+    {
+        "- name": "visuals_box_corners_1",
+        "-- flex_name": "方框圆角位置",
+        "--- type": 3,
+        "---- items": "左上角,右上角,左下角,右下角"
+    },
+    {
+        "- name": "visuals_box_corners_2",
+        "-- flex_name": "方框圆角位置",
+        "--- type": 3,
+        "---- items": "左上角,右上角,左下角,右下角"
+    },
+    {
+        "- name": "visuals_box_corners_3",
+        "-- flex_name": "方框圆角位置",
+        "--- type": 3,
+        "---- items": "左上角,右上角,左下角,右下角"
+    },
+    {
+        "- name": "visuals_box_corners_4",
+        "-- flex_name": "方框圆角位置",
+        "--- type": 3,
+        "---- items": "左上角,右上角,左下角,右下角"
+    },
+    {
+        "- name": "visuals_box_corners_5",
+        "-- flex_name": "方框圆角位置",
+        "--- type": 3,
+        "---- items": "左上角,右上角,左下角,右下角"
+    },
+    {
+        "- name": "visuals_box_corners_6",
+        "-- flex_name": "方框圆角位置",
+        "--- type": 3,
+        "---- items": "左上角,右上角,左下角,右下角"
+    },
+    {
+        "- name": "visuals_health_bar_0",
+        "-- flex_name": "血条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_1",
+        "-- flex_name": "血条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_2",
+        "-- flex_name": "血条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_3",
+        "-- flex_name": "血条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_4",
+        "-- flex_name": "血条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_5",
+        "-- flex_name": "血条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_6",
+        "-- flex_name": "血条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_background_0",
+        "-- flex_name": "血条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_background_1",
+        "-- flex_name": "血条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_background_2",
+        "-- flex_name": "血条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_background_3",
+        "-- flex_name": "血条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_background_4",
+        "-- flex_name": "血条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_background_5",
+        "-- flex_name": "血条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_background_6",
+        "-- flex_name": "血条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_bar_background_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_background_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_background_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_background_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_background_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_background_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_bar_background_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_value_0",
+        "-- flex_name": "血量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_value_1",
+        "-- flex_name": "血量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_value_2",
+        "-- flex_name": "血量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_value_3",
+        "-- flex_name": "血量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_value_4",
+        "-- flex_name": "血量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_value_5",
+        "-- flex_name": "血量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_value_6",
+        "-- flex_name": "血量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_value_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_value_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_value_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_value_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_value_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_value_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_value_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_action_bar_0",
+        "-- flex_name": "血量动画条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_action_bar_1",
+        "-- flex_name": "血量动画条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_action_bar_2",
+        "-- flex_name": "血量动画条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_action_bar_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_action_bar_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_action_bar_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_action_bar_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_action_bar_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_action_bar_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_action_bar_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_battery_style_0",
+        "-- flex_name": "Health Bar Battery Style",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_battery_style_1",
+        "-- flex_name": "Health Bar Battery Style",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_battery_style_2",
+        "-- flex_name": "Health Bar Battery Style",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_health_battery_line_count_0",
+        "-- flex_name": "Health Bar Battery Line Count",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_health_battery_line_count_1",
+        "-- flex_name": "Health Bar Battery Line Count",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_health_battery_line_count_2",
+        "-- flex_name": "Health Bar Battery Line Count",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_health_battery_line_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_battery_line_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_health_battery_line_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_0",
+        "-- flex_name": "护甲条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_1",
+        "-- flex_name": "护甲条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_2",
+        "-- flex_name": "护甲条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_3",
+        "-- flex_name": "护甲条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_4",
+        "-- flex_name": "护甲条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_5",
+        "-- flex_name": "护甲条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_6",
+        "-- flex_name": "护甲条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_background_0",
+        "-- flex_name": "护甲条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_background_1",
+        "-- flex_name": "护甲条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_background_2",
+        "-- flex_name": "护甲条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_background_3",
+        "-- flex_name": "护甲条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_background_4",
+        "-- flex_name": "护甲条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_background_5",
+        "-- flex_name": "护甲条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_background_6",
+        "-- flex_name": "护甲条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_bar_background_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_background_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_background_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_background_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_background_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_background_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_bar_background_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_value_0",
+        "-- flex_name": "护甲值",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_value_1",
+        "-- flex_name": "护甲值",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_value_2",
+        "-- flex_name": "护甲值",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_value_3",
+        "-- flex_name": "护甲值",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_value_4",
+        "-- flex_name": "护甲值",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_value_5",
+        "-- flex_name": "护甲值",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_value_6",
+        "-- flex_name": "护甲值",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_value_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_value_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_value_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_value_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_value_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_value_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_value_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_action_bar_0",
+        "-- flex_name": "护甲动画条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_action_bar_1",
+        "-- flex_name": "护甲动画条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_action_bar_2",
+        "-- flex_name": "护甲动画条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_action_bar_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_action_bar_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_action_bar_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_battery_style_0",
+        "-- flex_name": "Armor Bar Battery Style",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_battery_style_1",
+        "-- flex_name": "Armor Bar Battery Style",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_battery_style_2",
+        "-- flex_name": "Armor Bar Battery Style",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_armor_battery_line_count_0",
+        "-- flex_name": "Armor Bar Battery Line Count",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_armor_battery_line_count_1",
+        "-- flex_name": "Armor Bar Battery Line Count",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_armor_battery_line_count_2",
+        "-- flex_name": "Armor Bar Battery Line Count",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_armor_battery_line_count_3",
+        "-- flex_name": "Armor Bar Battery Line Count",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_armor_battery_line_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_battery_line_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_armor_battery_line_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_0",
+        "-- flex_name": "子弹条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_1",
+        "-- flex_name": "子弹条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_2",
+        "-- flex_name": "子弹条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_3",
+        "-- flex_name": "子弹条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_4",
+        "-- flex_name": "子弹条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_5",
+        "-- flex_name": "子弹条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_6",
+        "-- flex_name": "子弹条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_background_0",
+        "-- flex_name": "子弹条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_background_1",
+        "-- flex_name": "子弹条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_background_2",
+        "-- flex_name": "子弹条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_background_3",
+        "-- flex_name": "子弹条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_background_4",
+        "-- flex_name": "子弹条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_background_5",
+        "-- flex_name": "子弹条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_background_6",
+        "-- flex_name": "子弹条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_bar_background_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_background_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_background_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_background_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_background_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_background_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_bar_background_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_value_0",
+        "-- flex_name": "子弹量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_value_1",
+        "-- flex_name": "子弹量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_value_2",
+        "-- flex_name": "子弹量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_value_3",
+        "-- flex_name": "子弹量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_value_4",
+        "-- flex_name": "子弹量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_value_5",
+        "-- flex_name": "子弹量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_value_6",
+        "-- flex_name": "子弹量",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_value_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_value_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_value_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_value_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_value_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_value_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_value_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_action_bar_0",
+        "-- flex_name": "子弹动画条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_action_bar_1",
+        "-- flex_name": "子弹动画条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_action_bar_2",
+        "-- flex_name": "子弹动画条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_action_bar_3",
+        "-- flex_name": "Ammo Action Bar",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_action_bar_4",
+        "-- flex_name": "Ammo Action Bar",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_action_bar_5",
+        "-- flex_name": "Ammo Action Bar",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_action_bar_6",
+        "-- flex_name": "Ammo Action Bar",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_action_bar_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_action_bar_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_action_bar_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_action_bar_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_action_bar_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_action_bar_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_action_bar_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_battery_style_0",
+        "-- flex_name": "将弹药条显示为电池样式",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_battery_style_1",
+        "-- flex_name": "将弹药条显示为电池样式",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_battery_style_2",
+        "-- flex_name": "将弹药条显示为电池样式",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_battery_style_3",
+        "-- flex_name": "将弹药条显示为电池样式",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_ammo_battery_line_count_0",
+        "-- flex_name": "设置电池样式弹药条的格子数",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_ammo_battery_line_count_1",
+        "-- flex_name": "设置电池样式弹药条的格子数",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_ammo_battery_line_count_2",
+        "-- flex_name": "设置电池样式弹药条的格子数",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_ammo_battery_line_count_3",
+        "-- flex_name": "设置电池样式弹药条的格子数",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_ammo_battery_line_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_battery_line_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_battery_line_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_ammo_battery_line_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_fixed_ammo_position_0",
+        "-- flex_name": "修正子弹位置",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_fixed_ammo_position_1",
+        "-- flex_name": "修正子弹位置",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_fixed_ammo_position_2",
+        "-- flex_name": "修正子弹位置",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_fixed_ammo_position_3",
+        "-- flex_name": "修正子弹位置",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_fixed_ammo_position_4",
+        "-- flex_name": "修正子弹位置",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_fixed_ammo_position_5",
+        "-- flex_name": "修正子弹位置",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_fixed_ammo_position_6",
+        "-- flex_name": "修正子弹位置",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_name_esp_0",
+        "-- flex_name": "武器名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_name_esp_1",
+        "-- flex_name": "武器名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_name_esp_2",
+        "-- flex_name": "武器名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_name_esp_3",
+        "-- flex_name": "武器名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_name_esp_4",
+        "-- flex_name": "武器名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_name_esp_5",
+        "-- flex_name": "武器名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_name_esp_6",
+        "-- flex_name": "武器名字ESP",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_icon_esp_0",
+        "-- flex_name": "使用图标",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_icon_esp_1",
+        "-- flex_name": "使用图标",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_icon_esp_2",
+        "-- flex_name": "使用图标",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_icon_esp_3",
+        "-- flex_name": "使用图标",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_icon_esp_4",
+        "-- flex_name": "使用图标",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_icon_esp_5",
+        "-- flex_name": "使用图标",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_icon_esp_6",
+        "-- flex_name": "使用图标",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_weapon_esp_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_weapon_esp_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_weapon_esp_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_weapon_esp_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_weapon_esp_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_weapon_esp_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_weapon_esp_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_esp_0",
+        "-- flex_name": "骨架ESP",
+        "--- type": 2,
+        "---- items": "无,普通,头部+"
+    },
+    {
+        "- name": "visuals_skeleton_esp_1",
+        "-- flex_name": "骨架ESP",
+        "--- type": 2,
+        "---- items": "无,普通,头部+"
+    },
+    {
+        "- name": "visuals_skeleton_esp_2",
+        "-- flex_name": "骨架ESP",
+        "--- type": 2,
+        "---- items": "无,普通,头部+"
+    },
+    {
+        "- name": "visuals_skeleton_esp_3",
+        "-- flex_name": "骨架ESP",
+        "--- type": 2,
+        "---- items": "无,普通,头部+"
+    },
+    {
+        "- name": "visuals_skeleton_esp_4",
+        "-- flex_name": "骨架ESP",
+        "--- type": 2,
+        "---- items": "无,普通,头部+"
+    },
+    {
+        "- name": "visuals_skeleton_esp_5",
+        "-- flex_name": "骨架ESP",
+        "--- type": 2,
+        "---- items": "无,普通,头部+"
+    },
+    {
+        "- name": "visuals_skeleton_esp_6",
+        "-- flex_name": "骨架ESP",
+        "--- type": 2,
+        "---- items": "无,普通,头部+"
+    },
+    {
+        "- name": "visuals_skeleton_esp_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_esp_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_esp_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_esp_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_esp_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_esp_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_esp_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_0",
+        "-- flex_name": "骨骼关节",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_1",
+        "-- flex_name": "骨骼关节",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_2",
+        "-- flex_name": "骨骼关节",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_3",
+        "-- flex_name": "骨骼关节",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_4",
+        "-- flex_name": "骨骼关节",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_5",
+        "-- flex_name": "骨骼关节",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_6",
+        "-- flex_name": "骨骼关节",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_0",
+        "-- flex_name": "骨骼关节轮廓",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_1",
+        "-- flex_name": "骨骼关节轮廓",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_2",
+        "-- flex_name": "骨骼关节轮廓",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_3",
+        "-- flex_name": "骨骼关节轮廓",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_4",
+        "-- flex_name": "骨骼关节轮廓",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_5",
+        "-- flex_name": "骨骼关节轮廓",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_6",
+        "-- flex_name": "骨骼关节轮廓",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_outline_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_skeleton_joints_scale_0",
+        "-- flex_name": "骨骼关节尺寸",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_skeleton_joints_scale_1",
+        "-- flex_name": "骨骼关节尺寸",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_skeleton_joints_scale_2",
+        "-- flex_name": "骨骼关节尺寸",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_skeleton_joints_scale_3",
+        "-- flex_name": "骨骼关节尺寸",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_skeleton_joints_scale_4",
+        "-- flex_name": "骨骼关节尺寸",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_skeleton_joints_scale_5",
+        "-- flex_name": "骨骼关节尺寸",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_skeleton_joints_scale_6",
+        "-- flex_name": "骨骼关节尺寸",
+        "--- type": 1,
+        "---- format": "%.2f"
+    },
+    {
+        "- name": "visuals_line_esp_0",
+        "-- flex_name": "线ESP",
+        "--- type": 3,
+        "---- items": "屏幕底部,准星"
+    },
+    {
+        "- name": "visuals_line_esp_1",
+        "-- flex_name": "线ESP",
+        "--- type": 3,
+        "---- items": "屏幕底部,准星"
+    },
+    {
+        "- name": "visuals_line_esp_2",
+        "-- flex_name": "线ESP",
+        "--- type": 3,
+        "---- items": "屏幕底部,准星"
+    },
+    {
+        "- name": "visuals_line_esp_3",
+        "-- flex_name": "线ESP",
+        "--- type": 3,
+        "---- items": "屏幕底部,准星"
+    },
+    {
+        "- name": "visuals_line_esp_4",
+        "-- flex_name": "线ESP",
+        "--- type": 3,
+        "---- items": "屏幕底部,准星"
+    },
+    {
+        "- name": "visuals_line_esp_5",
+        "-- flex_name": "线ESP",
+        "--- type": 3,
+        "---- items": "屏幕底部,准星"
+    },
+    {
+        "- name": "visuals_line_esp_6",
+        "-- flex_name": "线ESP",
+        "--- type": 3,
+        "---- items": "屏幕底部,准星"
+    },
+    {
+        "- name": "visuals_line_esp_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_background_0",
+        "-- flex_name": "线ESP背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_line_esp_background_1",
+        "-- flex_name": "线ESP背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_line_esp_background_2",
+        "-- flex_name": "线ESP背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_line_esp_background_3",
+        "-- flex_name": "线ESP背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_line_esp_background_4",
+        "-- flex_name": "线ESP背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_line_esp_background_5",
+        "-- flex_name": "线ESP背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_line_esp_background_6",
+        "-- flex_name": "线ESP背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_line_esp_background_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_background_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_background_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_background_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_background_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_background_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_line_esp_background_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_esp_0",
+        "-- flex_name": "箭头ESP",
+        "--- type": 3,
+        "---- items": "范围内,范围外"
+    },
+    {
+        "- name": "visuals_arrow_esp_1",
+        "-- flex_name": "箭头ESP",
+        "--- type": 3,
+        "---- items": "范围内,范围外"
+    },
+    {
+        "- name": "visuals_arrow_esp_2",
+        "-- flex_name": "箭头ESP",
+        "--- type": 3,
+        "---- items": "范围内,范围外"
+    },
+    {
+        "- name": "visuals_arrow_esp_3",
+        "-- flex_name": "箭头ESP",
+        "--- type": 3,
+        "---- items": "范围内,范围外"
+    },
+    {
+        "- name": "visuals_arrow_esp_4",
+        "-- flex_name": "箭头ESP",
+        "--- type": 3,
+        "---- items": "范围内,范围外"
+    },
+    {
+        "- name": "visuals_arrow_esp_5",
+        "-- flex_name": "箭头ESP",
+        "--- type": 3,
+        "---- items": "范围内,范围外"
+    },
+    {
+        "- name": "visuals_arrow_esp_6",
+        "-- flex_name": "箭头ESP",
+        "--- type": 3,
+        "---- items": "范围内,范围外"
+    },
+    {
+        "- name": "visuals_arrow_style_0",
+        "-- flex_name": "箭头样式",
+        "--- type": 2,
+        "---- items": "普通,箭头,先驱,经典,三角"
+    },
+    {
+        "- name": "visuals_arrow_style_1",
+        "-- flex_name": "箭头样式",
+        "--- type": 2,
+        "---- items": "普通,箭头,先驱,经典,三角"
+    },
+    {
+        "- name": "visuals_arrow_style_2",
+        "-- flex_name": "箭头样式",
+        "--- type": 2,
+        "---- items": "普通,箭头,先驱,经典,三角"
+    },
+    {
+        "- name": "visuals_arrow_style_3",
+        "-- flex_name": "箭头样式",
+        "--- type": 2,
+        "---- items": "普通,箭头,先驱,经典,三角"
+    },
+    {
+        "- name": "visuals_arrow_style_4",
+        "-- flex_name": "箭头样式",
+        "--- type": 2,
+        "---- items": "普通,箭头,先驱,经典,三角"
+    },
+    {
+        "- name": "visuals_arrow_style_5",
+        "-- flex_name": "箭头样式",
+        "--- type": 2,
+        "---- items": "普通,箭头,先驱,经典,三角"
+    },
+    {
+        "- name": "visuals_arrow_style_6",
+        "-- flex_name": "箭头样式",
+        "--- type": 2,
+        "---- items": "普通,箭头,先驱,经典,三角"
+    },
+    {
+        "- name": "visuals_arrow_style_primary_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_primary_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_primary_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_primary_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_primary_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_primary_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_primary_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_secondary_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_secondary_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_secondary_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_secondary_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_secondary_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_secondary_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_secondary_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_third_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_third_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_third_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_third_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_third_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_third_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_style_third_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_arrow_height_0",
+        "-- flex_name": "箭头高度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_arrow_height_1",
+        "-- flex_name": "箭头高度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_arrow_height_2",
+        "-- flex_name": "箭头高度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_arrow_height_3",
+        "-- flex_name": "箭头高度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_arrow_height_4",
+        "-- flex_name": "箭头高度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_arrow_height_5",
+        "-- flex_name": "箭头高度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_arrow_height_6",
+        "-- flex_name": "箭头高度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_headdot_esp_0",
+        "-- flex_name": "头点ESP",
+        "--- type": 2,
+        "---- items": "未选择,矩形,填充矩形,十字型"
+    },
+    {
+        "- name": "visuals_headdot_esp_1",
+        "-- flex_name": "头点ESP",
+        "--- type": 2,
+        "---- items": "未选择,矩形,填充矩形,十字型"
+    },
+    {
+        "- name": "visuals_headdot_esp_2",
+        "-- flex_name": "头点ESP",
+        "--- type": 2,
+        "---- items": "未选择,矩形,填充矩形,十字型"
+    },
+    {
+        "- name": "visuals_headdot_esp_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_headdot_esp_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_headdot_esp_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_headdot_outline_0",
+        "-- flex_name": "头点填充轮廓",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_headdot_outline_1",
+        "-- flex_name": "头点填充轮廓",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_headdot_outline_2",
+        "-- flex_name": "头点填充轮廓",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_headdot_outline_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_headdot_outline_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_headdot_outline_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_headdot_scale_0",
+        "-- flex_name": "头点尺寸",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_headdot_scale_1",
+        "-- flex_name": "头点尺寸",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_headdot_scale_2",
+        "-- flex_name": "头点尺寸",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_headdot_rounding_0",
+        "-- flex_name": "头点圆角",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_headdot_rounding_1",
+        "-- flex_name": "头点圆角",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_headdot_rounding_2",
+        "-- flex_name": "头点圆角",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_player_esp_flags_0",
+        "-- flex_name": "标志",
+        "--- type": 3,
+        "---- items": "甲+头,开镜,换弹,拆弹,救援,被闪,在包点,在购买区,在购买菜单,在救援区,距离,钱"
+    },
+    {
+        "- name": "visuals_player_esp_flags_1",
+        "-- flex_name": "标志",
+        "--- type": 3,
+        "---- items": "甲+头,开镜,换弹,拆弹,救援,被闪,在包点,在购买区,在购买菜单,在救援区,距离,钱"
+    },
+    {
+        "- name": "visuals_player_esp_flags_2",
+        "-- flex_name": "标志",
+        "--- type": 3,
+        "---- items": "甲+头,开镜,换弹,拆弹,救援,被闪,在包点,在购买区,在购买菜单,在救援区,距离,钱"
+    },
+    {
+        "- name": "visuals_player_esp_flags_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_player_esp_flags_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_player_esp_flags_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_player_esp_flags_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_player_esp_flags_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_player_esp_flags_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_player_esp_flags_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_c4_explode_timer_bar",
+        "-- flex_name": "C4爆炸时间条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_c4_explode_timer_bar_color",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_c4_explode_timer_bar_background",
+        "-- flex_name": "C4爆炸时间条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_c4_explode_timer_bar_background_color",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_c4_explode_timer_value",
+        "-- flex_name": "C4爆炸时间值",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_c4_explode_timer_value_color",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_c4_defuse_timer_bar",
+        "-- flex_name": "C4拆除时间条",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_c4_defuse_timer_bar_color",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_c4_defuse_timer_bar_background",
+        "-- flex_name": "C4拆除时间条背景",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_c4_defuse_timer_bar_background_color",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_c4_defuse_timer_value",
+        "-- flex_name": "C4拆除时间值",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_c4_defuse_timer_value_color",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_disable_esp_key_0",
+        "-- flex_name": "禁用ESP按键",
+        "--- type": 6
+    },
+    {
+        "- name": "visuals_disable_esp_key_1",
+        "-- flex_name": "禁用ESP按键",
+        "--- type": 6
+    },
+    {
+        "- name": "visuals_disable_esp_key_2",
+        "-- flex_name": "禁用ESP按键",
+        "--- type": 6
+    },
+    {
+        "- name": "visuals_disable_esp_key_3",
+        "-- flex_name": "禁用ESP按键",
+        "--- type": 6
+    },
+    {
+        "- name": "visuals_disable_esp_key_4",
+        "-- flex_name": "禁用ESP按键",
+        "--- type": 6
+    },
+    {
+        "- name": "visuals_disable_esp_key_5",
+        "-- flex_name": "禁用ESP按键",
+        "--- type": 6
+    },
+    {
+        "- name": "visuals_disable_esp_key_6",
+        "-- flex_name": "禁用ESP按键",
+        "--- type": 6
+    },
+    {
+        "- name": "visuals_disable_esp_players_hostages_0",
+        "-- flex_name": "禁用ESP条件",
+        "--- type": 3,
+        "---- items": "Spotted,Not Spotted,可视,不可视,本地玩家死亡,本地玩家存活,旁观"
+    },
+    {
+        "- name": "visuals_disable_esp_players_hostages_1",
+        "-- flex_name": "禁用ESP条件",
+        "--- type": 3,
+        "---- items": "Spotted,Not Spotted,可视,不可视,本地玩家死亡,本地玩家存活,旁观"
+    },
+    {
+        "- name": "visuals_disable_esp_players_hostages_2",
+        "-- flex_name": "禁用ESP条件",
+        "--- type": 3,
+        "---- items": "Spotted,Not Spotted,可视,不可视,本地玩家死亡,本地玩家存活,旁观"
+    },
+    {
+        "- name": "visuals_disable_esp_0",
+        "-- flex_name": "禁用ESP条件",
+        "--- type": 3,
+        "---- items": "可视,不可视,本地玩家死亡,本地玩家存活,旁观"
+    },
+    {
+        "- name": "visuals_disable_esp_1",
+        "-- flex_name": "禁用ESP条件",
+        "--- type": 3,
+        "---- items": "可视,不可视,本地玩家死亡,本地玩家存活,旁观"
+    },
+    {
+        "- name": "visuals_disable_esp_2",
+        "-- flex_name": "禁用ESP条件",
+        "--- type": 3,
+        "---- items": "可视,不可视,本地玩家死亡,本地玩家存活,旁观"
+    },
+    {
+        "- name": "visuals_disable_esp_dh_0",
+        "-- flex_name": "最大距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dh_1",
+        "-- flex_name": "最大距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dh_2",
+        "-- flex_name": "最大距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dh_3",
+        "-- flex_name": "最大距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dh_4",
+        "-- flex_name": "最大距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dh_5",
+        "-- flex_name": "最大距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dh_6",
+        "-- flex_name": "最大距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dl_0",
+        "-- flex_name": "最小距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dl_1",
+        "-- flex_name": "最小距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dl_2",
+        "-- flex_name": "最小距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dl_3",
+        "-- flex_name": "最小距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dl_4",
+        "-- flex_name": "最小距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dl_5",
+        "-- flex_name": "最小距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_esp_dl_6",
+        "-- flex_name": "最小距离",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "visuals_disable_for_weapontype",
+        "-- flex_name": "禁用武器类型",
+        "--- type": 3,
+        "---- items": "电击枪,手枪,冲锋枪,步枪,喷子,狙击枪,手雷"
+    },
+    {
+        "- name": "visuals_draw_on_radar_0",
+        "-- flex_name": "绘制在雷达",
+        "--- type": 2,
+        "---- items": "关闭,矩形,矩形填充,三角形,三角形填充"
+    },
+    {
+        "- name": "visuals_draw_on_radar_1",
+        "-- flex_name": "绘制在雷达",
+        "--- type": 2,
+        "---- items": "关闭,矩形,矩形填充,三角形,三角形填充"
+    },
+    {
+        "- name": "visuals_draw_on_radar_2",
+        "-- flex_name": "绘制在雷达",
+        "--- type": 2,
+        "---- items": "关闭,矩形,矩形填充,三角形,三角形填充"
+    },
+    {
+        "- name": "visuals_draw_on_radar_3",
+        "-- flex_name": "绘制在雷达",
+        "--- type": 2,
+        "---- items": "关闭,矩形,矩形填充,三角形,三角形填充"
+    },
+    {
+        "- name": "visuals_draw_on_radar_4",
+        "-- flex_name": "绘制在雷达",
+        "--- type": 2,
+        "---- items": "关闭,矩形,矩形填充,三角形,三角形填充"
+    },
+    {
+        "- name": "visuals_draw_on_radar_5",
+        "-- flex_name": "绘制在雷达",
+        "--- type": 2,
+        "---- items": "关闭,矩形,矩形填充,三角形,三角形填充"
+    },
+    {
+        "- name": "visuals_draw_on_radar_6",
+        "-- flex_name": "绘制在雷达",
+        "--- type": 2,
+        "---- items": "关闭,矩形,矩形填充,三角形,三角形填充"
+    },
+    {
+        "- name": "visuals_draw_on_radar_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_draw_on_radar_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_draw_on_radar_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_draw_on_radar_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_draw_on_radar_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_draw_on_radar_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_draw_on_radar_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_radar_shape_rounding_0",
+        "-- flex_name": "雷达形状圆角",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_radar_shape_rounding_1",
+        "-- flex_name": "雷达形状圆角",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_radar_shape_rounding_2",
+        "-- flex_name": "雷达形状圆角",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_radar_shape_rounding_3",
+        "-- flex_name": "雷达形状圆角",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_radar_shape_rounding_4",
+        "-- flex_name": "雷达形状圆角",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_radar_shape_rounding_5",
+        "-- flex_name": "雷达形状圆角",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_radar_shape_rounding_6",
+        "-- flex_name": "雷达形状圆角",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "visuals_override_grenade",
+        "-- flex_name": "覆盖道具颜色",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_override_grenade_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_override_grenade_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_override_grenade_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_override_grenade_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_override_grenade_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_override_esp_players_color_0",
+        "-- flex_name": "[队友]使用团队颜色覆盖",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_override_esp_players_color_1",
+        "-- flex_name": "[敌人]使用团队颜色覆盖",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_override_esp_players_color_2",
+        "-- flex_name": "Override 基础 With ESP Color",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_override_esp_grenades_color",
+        "-- flex_name": "[道具]使用团队颜色覆盖",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_original_0",
+        "-- flex_name": "原始",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_original_1",
+        "-- flex_name": "原始",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_original_2",
+        "-- flex_name": "原始",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_original_3",
+        "-- flex_name": "原始",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_original_4",
+        "-- flex_name": "原始",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_original_5",
+        "-- flex_name": "原始",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_original_6",
+        "-- flex_name": "原始",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_original_7",
+        "-- flex_name": "原始",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_original_8",
+        "-- flex_name": "原始",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_original_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_original_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_original_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_original_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_original_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_original_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_original_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_original_color_7",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_original_color_8",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_0",
+        "-- flex_name": "基础",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_base_1",
+        "-- flex_name": "基础",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_base_2",
+        "-- flex_name": "基础",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_base_3",
+        "-- flex_name": "基础",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_base_4",
+        "-- flex_name": "基础",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_base_5",
+        "-- flex_name": "基础",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_base_6",
+        "-- flex_name": "基础",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_base_7",
+        "-- flex_name": "基础",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_base_8",
+        "-- flex_name": "基础",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_base_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_color_7",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_color_8",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_attributes_0",
+        "-- flex_name": "基础属性",
+        "--- type": 3,
+        "---- items": "XQZ,覆盖为ESP透明度"
+    },
+    {
+        "- name": "visuals_chams_base_attributes_1",
+        "-- flex_name": "基础属性",
+        "--- type": 3,
+        "---- items": "XQZ,覆盖为ESP透明度"
+    },
+    {
+        "- name": "visuals_chams_base_attributes_2",
+        "-- flex_name": "基础属性",
+        "--- type": 3,
+        "---- items": "XQZ,覆盖为ESP透明度"
+    },
+    {
+        "- name": "visuals_chams_base_attributes_3",
+        "-- flex_name": "基础属性",
+        "--- type": 3,
+        "---- items": "XQZ"
+    },
+    {
+        "- name": "visuals_chams_base_attributes_4",
+        "-- flex_name": "基础属性",
+        "--- type": 3,
+        "---- items": "XQZ"
+    },
+    {
+        "- name": "visuals_chams_base_attributes_5",
+        "-- flex_name": "基础属性",
+        "--- type": 3,
+        "---- items": "XQZ"
+    },
+    {
+        "- name": "visuals_chams_base_attributes_6",
+        "-- flex_name": "基础属性",
+        "--- type": 3,
+        "---- items": "XQZ"
+    },
+    {
+        "- name": "visuals_chams_base_original_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_original_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_original_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_original_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_original_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_original_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_original_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_original_color_7",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_base_original_color_8",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_overlay_0",
+        "-- flex_name": "覆盖",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_overlay_1",
+        "-- flex_name": "覆盖",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_overlay_2",
+        "-- flex_name": "覆盖",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_overlay_3",
+        "-- flex_name": "覆盖",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_overlay_4",
+        "-- flex_name": "覆盖",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_overlay_5",
+        "-- flex_name": "覆盖",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_overlay_6",
+        "-- flex_name": "覆盖",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_overlay_7",
+        "-- flex_name": "覆盖",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_overlay_8",
+        "-- flex_name": "覆盖",
+        "--- type": 2,
+        "---- items": "无,默认"
+    },
+    {
+        "- name": "visuals_chams_overlay_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_overlay_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_overlay_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_overlay_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_overlay_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_overlay_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_overlay_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_overlay_color_7",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_overlay_color_8",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_overlay_attributes_0",
+        "-- flex_name": "覆盖属性",
+        "--- type": 3,
+        "---- items": "XQZ,覆盖为ESP透明度"
+    },
+    {
+        "- name": "visuals_chams_overlay_attributes_1",
+        "-- flex_name": "覆盖属性",
+        "--- type": 3,
+        "---- items": "XQZ,覆盖为ESP透明度"
+    },
+    {
+        "- name": "visuals_chams_overlay_attributes_2",
+        "-- flex_name": "覆盖属性",
+        "--- type": 3,
+        "---- items": "XQZ,覆盖为ESP透明度"
+    },
+    {
+        "- name": "visuals_chams_overlay_attributes_3",
+        "-- flex_name": "覆盖属性",
+        "--- type": 3,
+        "---- items": "XQZ"
+    },
+    {
+        "- name": "visuals_chams_overlay_attributes_4",
+        "-- flex_name": "覆盖属性",
+        "--- type": 3,
+        "---- items": "XQZ"
+    },
+    {
+        "- name": "visuals_chams_overlay_attributes_5",
+        "-- flex_name": "覆盖属性",
+        "--- type": 3,
+        "---- items": "XQZ"
+    },
+    {
+        "- name": "visuals_chams_overlay_attributes_6",
+        "-- flex_name": "覆盖属性",
+        "--- type": 3,
+        "---- items": "XQZ"
+    },
+    {
+        "- name": "visuals_smoke_options_color",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_remove_firstperson_legs",
+        "-- flex_name": "移除第一人称脚",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_remove_scope",
+        "-- flex_name": "移除开镜",
+        "--- type": 2,
+        "---- items": "关闭,静态,微笑"
+    },
+    {
+        "- name": "visuals_remove_scope_color",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_glow_0",
+        "-- flex_name": "发光",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_1",
+        "-- flex_name": "发光",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_2",
+        "-- flex_name": "发光",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_3",
+        "-- flex_name": "发光",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_4",
+        "-- flex_name": "发光",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_5",
+        "-- flex_name": "发光",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_6",
+        "-- flex_name": "发光",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_health_0",
+        "-- flex_name": "动态血量颜色",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_health_1",
+        "-- flex_name": "动态血量颜色",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_health_2",
+        "-- flex_name": "动态血量颜色",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_health_3",
+        "-- flex_name": "动态血量颜色",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_health_4",
+        "-- flex_name": "动态血量颜色",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_health_5",
+        "-- flex_name": "动态血量颜色",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_health_6",
+        "-- flex_name": "动态血量颜色",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_glow_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_glow_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_glow_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_glow_color_3",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_glow_color_4",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_glow_color_5",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_glow_color_6",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_glow_color_7",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_chams_glow_options_0",
+        "-- flex_name": "发光选项",
+        "--- type": 3,
+        "---- items": "Override With Team Color,覆盖为ESP透明度"
+    },
+    {
+        "- name": "visuals_chams_glow_options_1",
+        "-- flex_name": "发光选项",
+        "--- type": 3,
+        "---- items": "Override With Team Color,覆盖为ESP透明度"
+    },
+    {
+        "- name": "visuals_chams_glow_options_2",
+        "-- flex_name": "发光选项",
+        "--- type": 3,
+        "---- items": "Override With Team Color,覆盖为ESP透明度"
+    },
+    {
+        "- name": "visuals_chams_unlit_0",
+        "-- flex_name": "Unlit",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_unlit_1",
+        "-- flex_name": "Unlit",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_unlit_2",
+        "-- flex_name": "Unlit",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_unlit_3",
+        "-- flex_name": "Unlit",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_unlit_4",
+        "-- flex_name": "Unlit",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_unlit_5",
+        "-- flex_name": "Unlit",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_chams_unlit_6",
+        "-- flex_name": "Unlit",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_removals_zoom",
+        "-- flex_name": "无缩放",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_draw_profile_picture_0",
+        "-- flex_name": "绘制个人资料图片",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_draw_profile_picture_1",
+        "-- flex_name": "绘制个人资料图片",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_draw_profile_picture_2",
+        "-- flex_name": "绘制个人资料图片",
+        "--- type": 0
+    },
+    {
+        "- name": "visuals_draw_profile_picture_color_0",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_draw_profile_picture_color_1",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "visuals_draw_profile_picture_color_2",
+        "-- flex_name": "",
+        "--- type": 4
+    },
+    {
+        "- name": "misc_bunnyhop",
+        "-- flex_name": "连跳",
+        "--- type": 0
+    },
+    {
+        "- name": "misc_autostrafer",
+        "-- flex_name": "自动加速",
+        "--- type": 0
+    },
+    {
+        "- name": "misc_nightmode",
+        "-- flex_name": "暗黑模式",
+        "--- type": 0
+    },
+    {
+        "- name": "misc_nightmode_strength",
+        "-- flex_name": "暗黑模式强度",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "misc_force_big_radar",
+        "-- flex_name": "强制雷达变大",
+        "--- type": 0
+    },
+    {
+        "- name": "misc_force_spotted_on_radar",
+        "-- flex_name": "保持在雷达上发现",
+        "--- type": 0
+    },
+    {
+        "- name": "misc_use_team_mode_for_radar",
+        "-- flex_name": "在雷达上使用队友模式",
+        "--- type": 0
+    },
+    {
+        "- name": "misc_edge_jump_key",
+        "-- flex_name": "边缘跳",
+        "--- type": 6
+    },
+    {
+        "- name": "misc_cam_top_down_view",
+        "-- flex_name": "俯视视角",
+        "--- type": 0
+    },
+    {
+        "- name": "misc_cam_trace_height",
+        "-- flex_name": "测量高度",
+        "--- type": 0
+    },
+    {
+        "- name": "misc_a_spot_cam_key",
+        "-- flex_name": "A点摄像机",
+        "--- type": 6
+    },
+    {
+        "- name": "misc_b_spot_cam_key",
+        "-- flex_name": "B点摄像机",
+        "--- type": 6
+    },
+    {
+        "- name": "misc_cam_height",
+        "-- flex_name": "摄像机高度",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "misc_grenade_trajectory_preview",
+        "-- flex_name": "手榴弹轨迹预览",
+        "--- type": 0
+    },
+    {
+        "- name": "misc_radio",
+        "-- flex_name": "电台",
+        "--- type": 2,
+        "---- items": "Off,Rock,Techno,Teatime,Clubtime,Housetime,IluvRadio,8bit,Lofi,Hardbass,Remix,GermanRap,Trap,UK Heart,Smileycast,Eurobeat"
+    },
+    {
+        "- name": "misc_radio_volume",
+        "-- flex_name": "电台音量",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "misc_flash_override",
+        "-- flex_name": "闪光覆盖",
+        "--- type": 0
+    },
+    {
+        "- name": "misc_flash_max_alpha",
+        "-- flex_name": "最大闪光透明度",
+        "--- type": 1,
+        "---- format": "%.1f"
+    },
+    {
+        "- name": "misc_no_smoke",
+        "-- flex_name": "移除烟雾",
+        "--- type": 0
+    },
+    {
+        "- name": "misc_radar_hud",
+        "-- flex_name": "雷达界面",
+        "--- type": 0
+    },
+    {
+        "- name": "misc_radar_hud_size",
+        "-- flex_name": "雷达尺寸",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "misc_radar_hud_distance_scaling",
+        "-- flex_name": "雷达距离缩放",
+        "--- type": 1,
+        "---- format": "%.f"
+    },
+    {
+        "- name": "misc_show_spectator_hud",
+        "-- flex_name": "观察者界面",
+        "--- type": 2,
+        "---- items": "无,普通,+个人资料图片"
+    },
+    {
+        "- name": "misc_extra_blood",
+        "-- flex_name": "Extra Blood",
+        "--- type": 2,
+        "---- items": "Off,Light,Medium,Strong,Dexter Morgan"
+    },
+    {
+        "- name": "misc_ragebot_hitmarker",
+        "-- flex_name": "目标击中标记",
+        "--- type": 3,
+        "---- items": "Crosshair,Shock"
+    },
+    {
+        "- name": "scripts_select_lua_text",
+        "-- flex_name": "选择Lua",
+        "--- type": 8,
+        "---- override_text": ""
+    },
+    {
+        "- name": "scripts_lua_settings_text",
+        "-- flex_name": "Lua设置",
+        "--- type": 8,
+        "---- override_text": ""
+    },
+    {
+        "- name": "scripts_toggle_lua_editor_button",
+        "-- flex_name": "打开Lua脚本编写器",
+        "--- type": 7,
+        "---- value": "[\"Toggle?\",\"Toggle!\"]"
+    },
+    {
+        "- name": "scripts_load_lua_button",
+        "-- flex_name": "加载",
+        "--- type": 7,
+        "---- value": "[\"Load?\",\"Load!\"]"
+    },
+    {
+        "- name": "scripts_reload_lua_button",
+        "-- flex_name": "重载",
+        "--- type": 7,
+        "---- value": "[\"Reload?\",\"Reload!\"]"
+    },
+    {
+        "- name": "scripts_refresh_lua_button",
+        "-- flex_name": "刷新",
+        "--- type": 7,
+        "---- value": "[\"Refresh?\",\"Refresh!\"]"
+    },
+    {
+        "- name": "scripts_unload_lua_button",
+        "-- flex_name": "卸载",
+        "--- type": 7,
+        "---- value": "[\"Unload?\",\"Unload!\"]"
+    },
+    {
+        "- name": "scripts_unload_all_lua_button",
+        "-- flex_name": "卸载全部",
+        "--- type": 7,
+        "---- value": "[\"Unload All?\",\"Unloaded All!\"]"
+    },
+    {
+        "- name": "scripts_open_folder_button",
+        "-- flex_name": "打开目录",
+        "--- type": 7,
+        "---- value": "[\"Open?\",\"Open!\"]"
+    },
+    {
+        "- name": "scripts_lua_is_unloaded_text",
+        "-- flex_name": "信息: 已卸载",
+        "--- type": 8,
+        "---- override_text": ""
+    },
+    {
+        "- name": "scripts_editor_lua_filter",
+        "-- flex_name": "",
+        "--- type": 5,
+        "---- hint_text": "搜索..."
+    },
+    {
+        "- name": "scripts_editor_refresh_button",
+        "-- flex_name": "刷新",
+        "--- type": 7,
+        "---- value": "[\"Refresh?\",\"Refresh!\"]"
+    },
+    {
+        "- name": "scripts_editor_open_button",
+        "-- flex_name": "开启",
+        "--- type": 7,
+        "---- value": "[\"Open?\",\"Open!\"]"
+    },
+    {
+        "- name": "scripts_editor_save_button",
+        "-- flex_name": "保存",
+        "--- type": 7,
+        "---- value": "[\"Save?\",\"Save!\"]"
+    },
+    {
+        "- name": "scripts_editor_delete_button",
+        "-- flex_name": "删除",
+        "--- type": 7,
+        "---- value": "[\"Delete?\",\"Delete!\"]"
+    },
+    {
+        "- name": "scripts_editor_preview_button",
+        "-- flex_name": "预览",
+        "--- type": 7,
+        "---- value": "[\"Preview?\",\"Preview!\"]"
+    },
+    {
+        "- name": "scripts_editor_docs_button",
+        "-- flex_name": "文档",
+        "--- type": 7,
+        "---- value": "[\"Toggle?\",\"Toggle!\"]"
+    },
+    {
+        "- name": "scripts_editor_encrypt_button",
+        "-- flex_name": "加密",
+        "--- type": 7,
+        "---- value": "[\"Encrypt?\",\"Encrypt!\"]"
+    },
+    {
+        "- name": "scripts_editor_create_text",
+        "-- flex_name": "",
+        "--- type": 5,
+        "---- hint_text": "new lua name..."
+    },
+    {
+        "- name": "scripts_editor_api_search",
+        "-- flex_name": "",
+        "--- type": 5,
+        "---- hint_text": "search..."
+    },
+    {
+        "- name": "scripts_editor_create_button",
+        "-- flex_name": "创建",
+        "--- type": 7,
+        "---- value": "[\"Create?\",\"Create!\"]"
+    },
+    {
+        "- name": "scripts_editor_load_button",
+        "-- flex_name": "加载",
+        "--- type": 7,
+        "---- value": "[\"Load?\",\"Load!\"]"
+    },
+    {
+        "- name": "scripts_editor_reload_button",
+        "-- flex_name": "重载",
+        "--- type": 7,
+        "---- value": "[\"Reload?\",\"Reload!\"]"
+    },
+    {
+        "- name": "scripts_editor_unload_button",
+        "-- flex_name": "卸载",
+        "--- type": 7,
+        "---- value": "[\"Unload?\",\"Unload!\"]"
+    },
+    {
+        "- name": "scripts_editor_copy_button",
+        "-- flex_name": "复制",
+        "--- type": 7,
+        "---- value": "[\"Copy?\",\"Copy!\"]"
+    },
+    {
+        "- name": "scripts_editor_insert_button",
+        "-- flex_name": "插入",
+        "--- type": 7,
+        "---- value": "[\"Insert?\",\"Insert!\"]"
+    },
+    {
+        "- name": "scripts_editor_clear_button",
+        "-- flex_name": "清除",
+        "--- type": 7,
+        "---- value": "[\"Clear?\",\"Clear!\"]"
+    },
+    {
+        "- name": "scripts_api_tab_filter",
+        "-- flex_name": "",
+        "--- type": 5,
+        "---- hint_text": "filter..."
+    }
+]
